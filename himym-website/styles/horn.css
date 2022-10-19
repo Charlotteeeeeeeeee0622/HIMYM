@@ -1,0 +1,36 @@
+main {
+	background-color: hsla(0, 100%, 100%, 0.9);
+	border-radius: 2em;
+	padding: 1em;
+	overflow: auto;
+}
+
+main h1, main h2 {
+	text-align: center;
+	margin: 0.5em;
+}
+
+main div.line {
+	margin-bottom: 1em;
+}
+
+#left {
+	float: left;
+	width: 48%;
+}
+
+#left img {
+	width: 100%;
+	border: 3px solid white;
+	border-radius: 2em;
+}
+
+#right {
+	float: right;
+	width: 45%;
+	margin: 0 1em;
+}
+
+#right p {
+	line-height: 1.3em;
+}

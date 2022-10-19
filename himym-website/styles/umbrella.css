@@ -1,0 +1,50 @@
+main {
+	background-color: hsla(0, 100%, 100%, 0.9); 
+	border-radius:2em; 
+	overflow: auto;
+	padding: 1em;
+}
+
+main h1, main h2 {
+	text-align: center;
+	margin: 0.5em;
+}
+
+main div.line {
+	margin-bottom: 1em;
+}
+
+#left {
+	float: left;
+	width: 37%;
+}
+
+#left img {
+	width: 100%;
+	border-radius: 2em;
+	border: 2px solid white;
+}
+
+#middle {
+	float: left;
+	width: 37%;
+	margin: 0 2em;
+}
+
+#middle p {
+	margin-bottom: 0;
+}
+
+#right {
+	width: 17%;
+	float: right;
+}
+
+#right ul {
+	padding: 0;
+	margin: 0;
+}
+
+#right ul li {
+	padding-bottom: 1em;
+}

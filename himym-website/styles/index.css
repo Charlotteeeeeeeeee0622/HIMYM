@@ -1,0 +1,87 @@
+@font-face {
+    font-family: font-awesome;
+    src: url('../fonts/fa-solid-900.woff') format('woff');
+}
+
+@keyframes point {
+    from {top: 0;}
+    to {top: -10px;}
+}
+
+.up:hover {
+    position: relative;
+    /*top: -5px;*/
+    /*animation: point 0.3s linear 0s infinite alternate;*/
+}
+
+
+article {
+    padding: 1em;
+    border-radius: 2em;
+    margin: 1.2em;
+    font-size: 1.1em;
+    overflow: auto;
+    line-height: 1.5em;
+    padding-bottom: 0;
+}
+
+article figure {
+    float: left;
+    width: 45%;
+    margin: 0 0 0.5em 0;
+}
+
+article div.text {
+    float: right;
+    width: 55%;
+}
+
+article img {
+    background-color: white;
+    border-radius: 2em;
+    height: 300px;
+}
+
+article img:hover {
+    box-shadow: 0 0 8px black;	
+}
+
+article h2 {
+    margin-top: 0.5em;
+}
+
+article h2::first-letter {
+    font-size: 1.4em;
+}
+
+.up, .up:visited {
+    float: right;
+    font-family: font-awesome;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 0 1px 8px black;
+}
+
+.yellow {
+    background-color: hsla(60, 100%, 50%, 0.9);
+    border-color: hsl(60, 100%, 25%);
+    color: hsl(60, 100%, 25%);
+}
+
+.blue {
+    background-color: hsla(195, 100%, 50%, 0.9);
+    border-color: hsl(195, 100%, 25%);
+    color: hsl(195, 100%, 20%);
+}
+
+.green {
+    background-color: hsla(120, 100%, 50%, 0.9);
+    border-color: hsl(120, 100%, 25%);
+    color: hsl(120, 100%, 20%);
+}
+
+.red {
+    background-color: hsla(0, 100%, 60%, 0.9);
+    border-color: hsl(0, 100%, 25%);
+    color: hsl(0, 100%, 25%);
+}

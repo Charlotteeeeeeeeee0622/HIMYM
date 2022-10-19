@@ -1,0 +1,103 @@
+@font-face {
+	font-family: dax-regular;
+	src: url('../fonts/dax-regular.woff') format('woff');
+}
+
+* {
+	transition: all 0.3s ease;
+}
+
+html {
+	background-image: url("../images/bg.jpg");
+	background-size: 100% auto;
+	font-family: dax-regular, sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 1em auto;
+	width: 800px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	margin-bottom: 3em;
+}
+
+header h1 {
+	text-align: center;
+}
+
+header h1::first-letter {
+	font-size: 1.3em;
+}
+
+header h3 {
+	margin-left: 1em;
+	text-shadow: 0 0 6px white;
+	float: left;
+}
+
+.name, .name:visited {
+	text-shadow: 0 0 4px black;
+	color: white;
+}
+
+.name:hover {
+	text-shadow: 0 0 10px black;
+}
+
+.line {
+	border-width: 2px;
+	border-bottom-style: solid;
+}
+
+nav {
+	background: white;
+	display: block;
+	float: right;
+	margin: 0.5em;
+	border: 1px solid #999;
+	border-radius: 0.5em;
+}
+
+nav a, nav a:visited {
+	display: block;
+	float: left;
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 2px;
+	padding: 8px;
+	border-radius: 0.5em;
+}
+
+nav a:hover {
+	background-color: #eee;
+}
+
+main {
+	clear: both;
+	margin-top: 5em;
+}
+
+footer {
+	clear: both;
+	margin-top: 2em;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 6px black;
+	font-weight: bold;
+	font-family: "Comic Sans MS", dax-regular, sans-serif;
+	margin: 0;
+}
+
+footer a, footer a:visited {
+	color: yellow;
+}
